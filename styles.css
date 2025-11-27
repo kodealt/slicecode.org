@@ -1,0 +1,52 @@
+:root {
+    background-color: #d0cfce;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    font-family: "Crimson Text", serif;
+    font-weight: 400;
+}
+
+h1{
+    font-size: x-large;
+    padding-left: 1%;
+}
+
+#title{
+    position: relative;
+    left: 0;
+    top: 0;
+    display: flex;
+    width: 100vw;
+    justify-content: center;
+    border-bottom: black solid 2px;
+}
+
+
+.about-text{
+    padding-left: 5%;
+    padding-right: 2%;
+    font-size: large;
+}
+
+.links{
+    position: relative;
+    padding: 10px;
+    width: 100vw;
+    display: flex;  
+    justify-content: space-around;
+    border-bottom: black solid 2px;
+    font-size: larger;
+
+}
+
+.emboss{
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.5),
+                -0.75px -0.5px 0.1px rgba(255, 255, 255, 0.9);
+}
