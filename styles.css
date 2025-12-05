@@ -1,5 +1,8 @@
 :root {
-    background-color: #d0cfce;
+
+    background-image: url("./assets/sliceBG.png");
+    
+    /* background-color: #d0cfce; */
 }
 
 html {
